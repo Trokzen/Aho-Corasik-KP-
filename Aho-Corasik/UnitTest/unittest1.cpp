@@ -15,7 +15,7 @@ namespace UnitTest
 			A_C Test;
 			Test.setText("addadda");
 			Test.AddInTreeStr("a");
-			string str = "aaa";
+			string str = "aa";
 			Assert::AreEqual(str, Test.ACSetup());
 		}
 		TEST_METHOD(TestMethod2)//Ïðîâåðèì íà âõîæäåíèå íåñêîëüêî ñòðîê(ïîëüçîâàòåëü ââîäèò ñòðîêè)
