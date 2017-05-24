@@ -1,0 +1,8 @@
+﻿  unittest1.cpp
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\unittest\fun.h(26): warning C4551: в вызове функции отсутствует список аргументов
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\unittest\fun.h(44): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\unittest\fun.h(48): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\unittest\fun.h(139): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\unittest\fun.h(144): warning C4018: <: несоответствие типов со знаком и без знака
+  UnitTest.vcxproj -> C:\Users\Trokzen\Documents\Visual Studio 2015\Projects\Aho-Corasik\Debug\UnitTest.dll
+  UnitTest.vcxproj -> C:\Users\Trokzen\Documents\Visual Studio 2015\Projects\Aho-Corasik\Debug\UnitTest.pdb (Partial PDB)

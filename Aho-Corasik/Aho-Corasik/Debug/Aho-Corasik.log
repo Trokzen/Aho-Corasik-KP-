@@ -1,0 +1,8 @@
+﻿  Aho-Corasik.cpp
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\aho-corasik\aho-corasik.cpp(18): warning C4551: в вызове функции отсутствует список аргументов
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\aho-corasik\aho-corasik.cpp(36): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\aho-corasik\aho-corasik.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\aho-corasik\aho-corasik.cpp(131): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\trokzen\documents\visual studio 2015\projects\aho-corasik\aho-corasik\aho-corasik.cpp(136): warning C4018: <: несоответствие типов со знаком и без знака
+  Aho-Corasik.vcxproj -> C:\Users\Trokzen\Documents\Visual Studio 2015\Projects\Aho-Corasik\Debug\Aho-Corasik.exe
+  Aho-Corasik.vcxproj -> C:\Users\Trokzen\Documents\Visual Studio 2015\Projects\Aho-Corasik\Debug\Aho-Corasik.pdb (Full PDB)
