@@ -10,15 +10,15 @@ namespace UnitTest
 	{
 	//public:
 		
-		TEST_METHOD(TestMethod1)//Проверим на вхождение 1 строку(пользователь вводит строки)
+		TEST_METHOD(TestMethod1)//ГЏГ°Г®ГўГҐГ°ГЁГ¬ Г­Г  ГўГµГ®Г¦Г¤ГҐГ­ГЁГҐ 1 Г±ГІГ°Г®ГЄГі(ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГўГўГ®Г¤ГЁГІ Г±ГІГ°Г®ГЄГЁ)
 		{
 			A_C Test;
 			Test.setText("addadda");
 			Test.AddInTreeStr("a");
-			string str = "aaa";
+			string str = "a";
 			Assert::AreEqual(str, Test.ACSetup());
 		}
-		TEST_METHOD(TestMethod2)//Проверим на вхождение несколько строк(пользователь вводит строки)
+		TEST_METHOD(TestMethod2)//ГЏГ°Г®ГўГҐГ°ГЁГ¬ Г­Г  ГўГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г­ГҐГ±ГЄГ®Г«ГјГЄГ® Г±ГІГ°Г®ГЄ(ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГўГўГ®Г¤ГЁГІ Г±ГІГ°Г®ГЄГЁ)
 		{
 			A_C Test;
 			Test.setText("addada");
@@ -27,7 +27,7 @@ namespace UnitTest
 			string str = "addada";
 			Assert::AreEqual(str, Test.ACSetup());
 		}
-		TEST_METHOD(TestMethod3)//Инъекция ошибки в поиск строк(пользователь вводит строки)
+		TEST_METHOD(TestMethod3)//Г€Г­ГєГҐГЄГ¶ГЁГї Г®ГёГЁГЎГЄГЁ Гў ГЇГ®ГЁГ±ГЄ Г±ГІГ°Г®ГЄ(ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГўГўГ®Г¤ГЁГІ Г±ГІГ°Г®ГЄГЁ)
 		{
 			A_C Test;
 			Test.setText("addada");
@@ -36,7 +36,7 @@ namespace UnitTest
 			string str = "ddadaa";
 			Assert::AreNotEqual(str, Test.ACSetup());
 		}
-		TEST_METHOD(TestMethod4)//Проверка на открытие файла
+		TEST_METHOD(TestMethod4)//ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  Г®ГІГЄГ°Г»ГІГЁГҐ ГґГ Г©Г«Г 
 		{
 			A_C Test;
 			string str;
@@ -54,7 +54,7 @@ namespace UnitTest
 				Assert::AreEqual(str, Test.OpenFile());
 			}
 		}
-		TEST_METHOD(TestMethod5)//Проверка на открытие файла//инъекция ошибки
+		TEST_METHOD(TestMethod5)//ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  Г®ГІГЄГ°Г»ГІГЁГҐ ГґГ Г©Г«Г //ГЁГ­ГєГҐГЄГ¶ГЁГї Г®ГёГЁГЎГЄГЁ
 		{
 			A_C Test;
 			string str;
@@ -72,7 +72,7 @@ namespace UnitTest
 				Assert::AreNotEqual(str, Test.OpenFile());
 			}
 		}
-		TEST_METHOD(TestMethod6)//Проверка на нумерацию найденных строк
+		TEST_METHOD(TestMethod6)//ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  Г­ГіГ¬ГҐГ°Г Г¶ГЁГѕ Г­Г Г©Г¤ГҐГ­Г­Г»Гµ Г±ГІГ°Г®ГЄ
 		{
 			A_C Test;
 			Test.setText("ada");
@@ -81,7 +81,7 @@ namespace UnitTest
 			int i = 2;
 			Assert::AreEqual(i,Test.ResultInt);
 		}
-		TEST_METHOD(TestMethod7)//Проверка на нумерацию найденных строк//инъекция ошибки
+		TEST_METHOD(TestMethod7)//ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  Г­ГіГ¬ГҐГ°Г Г¶ГЁГѕ Г­Г Г©Г¤ГҐГ­Г­Г»Гµ Г±ГІГ°Г®ГЄ//ГЁГ­ГєГҐГЄГ¶ГЁГї Г®ГёГЁГЎГЄГЁ
 		{
 			A_C Test;
 			Test.setText("add");
