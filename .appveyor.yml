@@ -12,14 +12,10 @@ matrix:
 
 platform:
     # будем гонять CI на amd64 и x86...
-    - x64
     - x86
-
 configuration:
     # ... и в дебажной, и в релизной конфигурациях ...
     - Debug
-    - Release
-
 environment:
     matrix:
         # ... на трёх студиях (2010, 2012, 2015)
@@ -30,7 +26,6 @@ install:
 
     - appveyor DownloadFile <url> -FileName <local-file>
     - 7z e -y <local-file> -o<local-dir>
-    - ...
 
 build_script:
     # скрипт сборки проекта:
